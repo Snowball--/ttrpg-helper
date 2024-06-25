@@ -1,0 +1,9 @@
+user_controllers:
+    resource:
+        path: ../../src/User/UseCase/
+        namespace: App\User\UseCase
+    type: attribute
+
+kernel:
+    resource: App\Kernel
+    type: attribute
