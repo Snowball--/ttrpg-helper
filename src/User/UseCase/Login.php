@@ -23,7 +23,7 @@ class Login extends AbstractController
             'error' => $error,
         ]);*/
 
-        return $this->render('@EasyAdmin/page/login.html.twig', [
+        return $this->render('login/login.html.twig', [
             // parameters usually defined in Symfony login forms
             'error' => $error,
             'last_username' => $lastUsername,
